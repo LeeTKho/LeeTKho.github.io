@@ -10,17 +10,56 @@
 
 .topnav,
 h1,
+h2,
 p,
 .email {
-  text-align:center;
+  text-align:left;
+  padding-top: 50px;
+  padding-left: 500px;
+  padding-right: 500px;
 }
 
-.topnav  a {
+.artcontainer {
+  align: center;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+/* .topnav  a {
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 16px;
+  text-decoration: none;
+  font-size: 17px;
+} */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  /* background-color: #03254c; */
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 .porchhands {
@@ -33,6 +72,24 @@ p,
   margin: auto; /* make em equal */
 }
 
-.lightwidget-widget {
-  text-align:center
+/* .row {
+  padding: 5px 5px;
+} */
+
+/* The Image container */
+.img-hover-zoom {
+  /* height: 10px; /* Modify this according to your need */ */
+  width: 10px;
+  overflow: hidden; /* Removing this will break the effects */
+  border: 100px;
+}
+
+/* Quick-zoom Container */
+.img-hover-zoom--basic img {
+  transition: transform 0.25s ease;
+}
+
+/* The Transformation */
+.img-hover-zoom--basic:hover img {
+  transform: scale(1.05);
 }
