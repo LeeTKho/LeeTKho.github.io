@@ -15,14 +15,14 @@ p,
 .email {
   text-align:left;
   padding-top: 50px;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .artcontainer {
   align: left;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 /* .topnav  a {
