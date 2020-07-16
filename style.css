@@ -8,15 +8,25 @@
   width: 1000px;
 }
 
-.topnav,
 h1,
 h2,
 p,
 .email {
   text-align:left;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.profile-img{
+  text-align:left;
   padding-top: 30px;
   padding-left: 100px;
   padding-right: 100px;
+  width:300px;
+  height:300px;
+  object-fit:cover;
+  border-radius:50%;
 }
 
 .artcontainer {
