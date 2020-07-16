@@ -17,7 +17,7 @@
     <div style="background-color:#CD5B45"; class="topnav"; id="myTopnav">
       <a href="index.html">home</a>
       <a href="art.html">art</a>
-      <a href="github.html">github</a>
+      <a href="https://github.com/LeeTKho" target="_blank">github</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
@@ -33,28 +33,39 @@
         <div class="column"; padding:0px>
           <div style="padding-bottom: 0px" class="row">
             <div style="display:table-cell" class="img-hover-zoom img-hover-zoom--basic">
-              <img height=250px width=250px src="art/1_kovukit_files/73109861_119458626147053_1996159075989262143_n.jpg">
+              <img class="res-img" height=250px width=250px src="art/1_kovukit_files/73109861_119458626147053_1996159075989262143_n.jpg">
             </div>
             <div style="display:table-cell" class="img-hover-zoom img-hover-zoom--basic">
-              <img height=250px width=250px src="art/1_kovukit_files/72253494_130041241321425_1360055034697582667_n.jpg">
+              <img class="res-img" height=250px width=250px src="art/1_kovukit_files/72253494_130041241321425_1360055034697582667_n.jpg">
             </div>
             <div style="display:table-cell" class="img-hover-zoom img-hover-zoom--basic">
-              <img height=250px width=250px src="art/1_kovukit_files/72849518_536745933813071_2828725225636378711_n.jpg">
+              <img class="res-img" height=250px width=250px src="art/1_kovukit_files/72849518_536745933813071_2828725225636378711_n.jpg">
             </div>
           </div>
           <div class="row">
             <div style="display:table-cell; padding-top:0px" class="img-hover-zoom img-hover-zoom--basic">
-              <img height=250px width=250pxx src="art/1_kovukit_files/72560434_137084734375959_378201522516223334_n.jpg">
+              <img class="res-img" height=250px width=250pxx src="art/1_kovukit_files/72560434_137084734375959_378201522516223334_n.jpg">
             </div>
             <div style="display:table-cell" class="img-hover-zoom img-hover-zoom--basic">
-              <img height=250px width=250px src="art/1_kovukit_files/75294881_1694704943992894_2358150643549319709_n.jpg">
+              <img class="res-img" height=250px width=250px src="art/1_kovukit_files/75294881_1694704943992894_2358150643549319709_n.jpg">
             </div>
             <div style="display:table-cell" class="img-hover-zoom img-hover-zoom--basic">
-              <img height=250px width=250px src="art/1_kovukit_files/103128447_548829385998783_1723781107844065319_n.jpg">
+              <img class="res-img" height=250px width=250px src="art/1_kovukit_files/103128447_548829385998783_1723781107844065319_n.jpg">
             </div>
           </div>
         </div>
     </div>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 
   </body>
 </html>

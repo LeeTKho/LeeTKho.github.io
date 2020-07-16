@@ -5,6 +5,7 @@
     <link href='https://fonts.googleapis.com/css?family=Baloo Da 2' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://i.dlpng.com/static/png/6981128_preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="main.js"></script>
   <style>
   body {
@@ -18,7 +19,7 @@
     <div style="background-color: #03254c"; class="topnav"; id="myTopnav">
       <a href="index.html">home</a>
       <a href="art.html">art</a>
-      <a href="github.html">github</a>
+      <a href="https://github.com/LeeTKho" target="_blank">github</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
@@ -28,6 +29,21 @@
   <h2 style="color:black;">Welcome to my personal webpage!</h2>
   <p style="color:black;">I am an aspiring data scientist currently pursuing my M.S. in data science at NYU's Center for Data Science (graduating May 2021). I obtained my undergraduate degree in mathematics with a minor in business from Cornell University in 2015. I enjoy data visualization, baking and painting.</p>
 
-  <p style="color:black;"> See my <a style="color:#7050a6"; href='https://github.com/LeeTKho' target="_blank">github</a> for data science projects and my <a style="color:#7050a6"; href='https://www.instagram.com/artstruggz/?hl=en' target="_blank">instagram</a> for art projects.</p>
+  <p style="color:black;"> See my <a style="color:black;"; href='https://github.com/LeeTKho' target="_blank">github</a> for data science projects and my <a style="color:black"; href='https://www.instagram.com/artstruggz/?hl=en' target="_blank">instagram</a> for art projects.</p>
+
+
+  <p> Contact: <a style="color:black" href = "mailto: ltk224@nyu.edu">ltk224@nyu.edu</a></p>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
   </body>
 </html>
