@@ -14,15 +14,15 @@ p,
 .email {
   text-align:left;
   padding-top: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .profile-img{
   text-align:left;
   padding-top: 30px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
   width:300px;
   height:300px;
   object-fit:cover;
@@ -31,19 +31,9 @@ p,
 
 .artcontainer {
   align: left;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
-
-/* .topnav  a {
-  color: #f2f2f2;
-  float: left;
-  text-align: center;
-  padding-top: 50px;
-  padding-right: 16px;
-  text-decoration: none;
-  font-size: 17px;
-} */
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -58,6 +48,7 @@ p,
 
 /* Add a black background color to the top navigation */
 .topnav {
+  padding-left: 200px;
   overflow: hidden;
 }
 
@@ -102,24 +93,11 @@ p,
   }
 }
 
-.porchhands {
-  width: 1120px; /* you have to have a size or this method doesn't work */
-  height: 630px; /* think about making these max-width instead - might give you some more responsiveness */
-
-  position: absolute; /* positions out of the flow, but according to the nearest parent */
-  top: 0; right: 0; /* confuse it i guess */
-  bottom: 0; left: 0;
-  margin: auto; /* make em equal */
-}
-
-/* .row {
-  padding: 5px 5px;
-} */
 
 /* The Image container */
 .img-hover-zoom {
   /* height: 10px; /* Modify this according to your need */ */
-  width: 10px;
+  /* width: 10px; */
   overflow: hidden; /* Removing this will break the effects */
   border: 100px;
 }
