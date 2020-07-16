@@ -14,14 +14,10 @@ p,
 .email {
   text-align:left;
   padding-top: 10px;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .profile-img{
   padding-top: 30px;
-  padding-left: 100px;
-  padding-right: 100px;
   width:300px;
   height:300px;
   object-fit:cover;
@@ -32,8 +28,6 @@ p,
 
 .artcontainer {
   align: left;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 /* Style the links inside the navigation bar */
@@ -49,7 +43,6 @@ p,
 
 /* Add a black background color to the top navigation */
 .topnav {
-  padding-left: 100px;
   overflow: hidden;
 }
 
